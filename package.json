@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^2.2.26",
     "mitt": "^3.0.0",
     "ol": "^7.1.0",
     "typescript": "^4.8.4",
