@@ -9,10 +9,11 @@ import Father from '../components/DataTransfer/Father.vue';
 import Children from '../components/DataTransfer/Children.vue';
 import Flat from '../components/Flat.vue';
 import Layer from '../components/OpenLayers/Layer.vue';
+import HelloWorld from '../components/HelloWorld.vue';
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
-    { path: '/', component: List },
+    { path: '/', component: HelloWorld },
     { path: '/list', component: import('../components/List.vue') },
     { path: '/detail', component: Detail },
   ],
